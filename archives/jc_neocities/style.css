@@ -1,0 +1,37 @@
+
+h1::before, h1::after { content: url("http://3dspaint.com/images/upload_gallery/16349.jpg"); }
+
+
+h1 {
+font-family: 'Font', Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
+}
+
+@keyframes TestColors { 0% { color: #2DD080; } 25% { color: #7038F8; } 50% { color: #3448F0; } 75% { color: #00FFFF; } 100% { color: #2DD080; } }
+
+animation-duration: 2s; animation-name: TestColors; animation-iteration-count: infinite; }
+
+
+h1 { color: #2DD080; text-shadow: #00D080 1px 1px 14px, #00D080 -1px -1px 14px; }
+
+.form_button { background: #000000; color: #FF0000; text-shadow: #FF0000 1px 1px 7px, #FF0000 -1px -1px 7px; border-style: solid; border-color: #FFFF00;border-width: 1px; box-shadow: #00D080 1px 1px 10px, #00D080 -1px -1px 10px; text-align: center center; border-radius: 25px; font-family: "Comic Sans", fantasy;font-style: normal; font-weight: normal; }
+
+.avatar { border-radius: 50px; height: 35px; width: 35px; } .nav_avatar { border-radius: 20px; height: 32px; width: 32px; }
+
+h1, div { background: url("https://3dspaint.com/images/upload_gallery/9548.jpg") center center / 100% fixed;}
+
+{background:url(/images/logo.png);background-position:center
+top;background-attachment:fixed;}td, div,
+.menu_section, .comments, .textarea, 
+.admin{background:transparent;border-color:transparent;color:purple;text-align:center;text-shadow: 1px 1px 1px blue;}
+
+h1{background:transparent;border-color:transparent;color:purple;text-align:center;text-shadow: 1px 1px 1px blue;}
+
+textarea{background:transparent;border-color:purple;}
+
+.form_button{background:gray;color:purple;border-color:black;text-align:center;}
+
+A{color:purple;text-shadow: 1px 1px 1px blue;}
+
+TEXTAREA{color:purple;text-shadow: 1px 1px 1px blue;}
