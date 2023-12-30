@@ -22,7 +22,7 @@ jobs:
           host: ${{ secrets.DEST_IP }}
           username: mattthetekie
           password : ${{ secrets.PASS }}
-          source: "/home/runner/work/VENITH.NET/jinxcade/"
+          source: "/home/runner/work/jinxcade/jinxcade"
           target: "/var/www/jinxcade/"
           proxy_host: ${{ secrets.IP }}
           proxy_username: mattthetekie
