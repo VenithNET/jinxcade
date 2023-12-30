@@ -35,4 +35,4 @@ jobs:
           proxy_host: ${{ secrets.IP }}
           proxy_username: mattthetekie
           proxy_password: ${{ secrets.PASS }}
-          script: mv /var/www/jinxcade/github/workspace/* /var/www/jinxcade/ -f
+          script: rm -rf /var/www/jinxcade/ & mv /var/www/jinxcade/github/workspace/* /var/www/jinxcade/ -f
