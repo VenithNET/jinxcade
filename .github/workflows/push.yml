@@ -1,4 +1,4 @@
-name: Push over SCP
+name: Push files over SCP
 
 on:
   schedule:
@@ -6,21 +6,34 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  download_and_push:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Getting Ready...
+      - name: Downloading Files
         run: |
-          echo "Getting Ready..."
-          mkdir -p ~/.ssh/
-          echo "HOST *" > ~/.ssh/config
-          echo "StrictHostKeyChecking no" >> ~/.ssh/config
-
-      - name: Pushing Files...
-        run: |
-          echo "Pushing Files..."
-          sshpass -p '${{ secrets.PASS }}' scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -r -P 22 /home/runner/work/VENITH.NET/jinxcade mattthetekie@${{ secrets.DEST_IP }}:/var/www/jinxcade
+          echo Downloading Files...
+      - name: Push Files via SCP
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.DEST_IP }}
+          username: mattthetekie
+          password : ${{ secrets.PASS }}
+          source: "/home/runner/work/VENITH.NET/jinxcade/"
+          target: "/var/www/jinxcade/"
+          proxy_host: ${{ secrets.IP }}
+          proxy_username: mattthetekie
+          proxy_password: ${{ secrets.PASS }}
+      - name: remote ssh command
+        uses: appleboy/ssh-action@v1.0.1
+        with:
+          host: ${{ secrets.DEST_IP }}
+          username: mattthetekie
+          password : ${{ secrets.PASS }}
+          proxy_host: ${{ secrets.IP }}
+          proxy_username: mattthetekie
+          proxy_password: ${{ secrets.PASS }}
+          script: mv /var/www/jinxcade/github/workspace/* /var/www/jinxcade/ -f
