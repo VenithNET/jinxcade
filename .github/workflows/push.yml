@@ -19,14 +19,14 @@ jobs:
       - name: remote ssh command
         uses: appleboy/ssh-action@v1.0.1
         with:
-          host: ${{ secrets.DEST_IP }}
+          host: ${{ secrets.IP }}
           username: mattthetekie
           password : ${{ secrets.PASS }}
           script: rm -rf /usr/share/nginx/jinxcade/
       - name: Push Files via SCP
         uses: appleboy/scp-action@master
         with:
-          host: ${{ secrets.DEST_IP }}
+          host: ${{ secrets.IP }}
           username: mattthetekie
           password : ${{ secrets.PASS }}
           source: "/home/runner/work/jinxcade/jinxcade"
@@ -34,7 +34,7 @@ jobs:
       - name: remote ssh command
         uses: appleboy/ssh-action@v1.0.1
         with:
-          host: ${{ secrets.DEST_IP }}
+          host: ${{ secrets.IP }}
           username: mattthetekie
           password : ${{ secrets.PASS }}
           script: mv /var/www/jinxcade/github/workspace/* /usr/share/nginx/jinxcade/ -f
