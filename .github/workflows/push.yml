@@ -22,7 +22,7 @@ jobs:
           host: ${{ secrets.IP }}
           username: mattthetekie
           password : ${{ secrets.PASS }}
-          script: rm -rf /usr/share/nginx/jinxcade/
+          script: rm -rf /var/www/jinxcade/
       - name: Push Files via SCP
         uses: appleboy/scp-action@master
         with:
@@ -30,11 +30,11 @@ jobs:
           username: mattthetekie
           password : ${{ secrets.PASS }}
           source: "/home/runner/work/jinxcade/jinxcade"
-          target: "/usr/share/nginx/jinxcade/"
+          target: "/var/www/jinxcade/"
       - name: remote ssh command
         uses: appleboy/ssh-action@v1.0.1
         with:
           host: ${{ secrets.IP }}
           username: mattthetekie
           password : ${{ secrets.PASS }}
-          script: mv /var/www/jinxcade/github/workspace/* /usr/share/nginx/jinxcade/ -f
+          script: mv /var/www/jinxcade/github/workspace/* /var/www/jinxcade/ -f
