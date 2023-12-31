@@ -37,7 +37,4 @@ jobs:
           host: ${{ secrets.DEST_IP }}
           username: mattthetekie
           password : ${{ secrets.PASS }}
-          proxy_host: ${{ secrets.IP }}
-          proxy_username: mattthetekie
-          proxy_password: ${{ secrets.PASS }}
           script: mv /var/www/jinxcade/github/workspace/* /usr/share/nginx/jinxcade/ -f
