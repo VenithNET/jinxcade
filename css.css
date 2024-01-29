@@ -106,12 +106,12 @@ body {background-color:#000000;}
 .color_discord3 {color:#46493e;}
 .color_discord_bg {background-color:#4056a7;}
 /*Fonts*/
-@font-face {font-family:'Audiowide';src:url(Audiowide.ttf);}
-@font-face {font-family:'Teko';src:url(Teko.ttf);}
-@font-face {font-family:'Sofia';src:url(Sofia.ttf);}
-@font-face {font-family:'DotGothic16';src:url(DotGothic16.ttf);}
-@font-face {font-family:'Yusei Magic';src:url(Yusei+Magic.ttf);}
-@font-face {font-family:'D';src:url(3D.ttf);}
-@font-face {font-family:'Burbank';src:url(Burbank.otf);}
-@font-face {font-family:'Heading Now';src:url(Heading+Now.ttf);}
-@font-face {font-family:'Densit';src:url(Densit.otf);}
+@font-face {font-family:'Audiowide';src:url(https://jinxcade.github.io/jinxcade-media/fonts/Audiowide.ttf);}
+@font-face {font-family:'Teko';src:url(https://jinxcade.github.io/jinxcade-media/fonts/Teko.ttf);}
+@font-face {font-family:'Sofia';src:url(https://jinxcade.github.io/jinxcade-media/fonts/Sofia.ttf);}
+@font-face {font-family:'DotGothic16';src:url(https://jinxcade.github.io/jinxcade-media/fonts/DotGothic16.ttf);}
+@font-face {font-family:'Yusei Magic';src:url(https://jinxcade.github.io/jinxcade-media/fonts/Yusei+Magic.ttf);}
+@font-face {font-family:'D';src:url(https://jinxcade.github.io/jinxcade-media/fonts/3D.ttf);}
+@font-face {font-family:'Burbank';src:url(https://jinxcade.github.io/jinxcade-media/fonts/Burbank.otf);}
+@font-face {font-family:'Heading Now';src:url(https://jinxcade.github.io/jinxcade-media/fonts/Heading+Now.ttf);}
+@font-face {font-family:'Densit';src:url(https://jinxcade.github.io/jinxcade-media/fonts/Densit.otf);}
