@@ -20,7 +20,7 @@ jobs:
         uses: appleboy/ssh-action@v1.0.1
         with:
           host: ${{ secrets.DEST_IP }}
-          username: mattthetekie
+          username: demon
           password : ${{ secrets.PASS }}
           proxy_host: ${{ secrets.IP }}
           proxy_port: 2035
