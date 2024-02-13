@@ -54,7 +54,7 @@ body {background-color:#000000;}
 .fixed {position:fixed;bottom:0;right:0;border:2px solid #301934;}
 .border {border:2px solid #301934;}
 /*Selections*/
-.selection {margin:5px;border:1px solid #343835;float:left;width:180px;transition:0.5s;}
+.selection {margin:5px;border:1px solid #343835;float:left;width:180px;height:250px;transition:0.5s;}
 .selection:hover {cursor:crosshair;border:1px solid #9A9E9B;transition:0.5s;}
 .selection img {width:100%;height:auto;}
 .selection_text {padding:15px;text-align:center;}
