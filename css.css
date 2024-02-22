@@ -79,7 +79,7 @@ video:hover {border:2px solid #9A9E9B;transition:0.5s;filter:drop-shadow(8px 8px
 
 /*Borders and Positioning*/
 
-.sticky {position:-webkit-sticky;position:sticky;top:0;padding:5px;border:2px solid #301934;}
+/* Ima snipe this code for mobile users .sticky {position:-webkit-sticky;position:sticky;top:0;padding:5px;border:2px solid #301934;} */
 .fixed {position:fixed;bottom:0;right:0;border:2px solid #301934;}
 .border {border:2px solid #301934;}
 
