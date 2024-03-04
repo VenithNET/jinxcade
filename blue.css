@@ -1,7 +1,7 @@
 /*CSS by JinxCade - You may reuse file for your own purposes*/
 /*This file is under the 'Unlicense License', feel free to reuse files!*/
 
-/*Theme name: 'Stary Grey Magica', theme may be reused*/
+/*Theme name: 'Magical Palaced Blue', theme may be reused*/
 
 /*Every theme name in code: 'Stary Grey Magica' (css.css), 'Iced Up Purple' (purple.css), 'Cored Down Orange' (orange.css), 'Bright Sunny White' (white.css), 'Magical Palaced Blue' (blue.css)*/
 
@@ -58,8 +58,8 @@
 
 h1 {cursor:url('cursor.png'), auto;font-family:Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;}
 p {cursor:url('cursor.png'), auto;font-family:Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;}
-a {transition:0.5s;cursor:url('cursor_click.png'), auto;font-family: Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;color:#000088;border:0px solid #301934;-webkit-border-radius:4px;}
-a:hover {transition:0.5s;border:4px solid #301934;}
+a {transition:0.5s;cursor:url('cursor_click.png'), auto;font-family: Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;color:#000088;border:0px solid #0000ef;-webkit-border-radius:4px;}
+a:hover {transition:0.5s;border:4px solid #0000ef;}
 div {cursor:url('cursor.png'), auto;font-family: Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;}
 body {cursor:url('cursor.png'), auto;background-color:#000000;height:110%;}
 
@@ -132,7 +132,7 @@ video:hover {border:2px solid #9A9E9B;transition:0.5s;filter:drop-shadow(8px 8px
 .color_magenta {color:magenta;}
 .color_white {color:white;}
 .color_black {color:black;}
-.color_accent1 {color:#10034f;}
+.color_accent1 {color:#00005f;}
 .color_accent2 {color:#9A9E9B;}
 .color_accent3 {color:#343835;}
 .color_venith1 {color:#040;}
