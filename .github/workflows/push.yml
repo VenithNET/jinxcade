@@ -1,40 +1,23 @@
-name: Push files over SCP
+
+name: SSH Deployment
 
 on:
   push:
   workflow_dispatch:
 
 jobs:
-  download_and_push:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
-      - name: Downloading Files
+      - name: Deploy
         run: |
-          echo Downloading Files...
-          
-      - name: remote ssh command
-        uses: appleboy/ssh-action@v1.0.1
-        with:
-          host: ${{ secrets.IP }}
-          username: demon
-          password : ${{ secrets.PASS }}
-          script: rm -rf /var/www/jinxcade/
-      - name: Push Files via SCP
-        uses: appleboy/scp-action@master
-        with:
-          host: ${{ secrets.IP }}
-          username: demon
-          password : ${{ secrets.PASS }}
-          source: "/home/runner/work/jinxcade/jinxcade"
-          target: "/var/www/jinxcade/"
-      - name: remote ssh command
-        uses: appleboy/ssh-action@v1.0.1
-        with:
-          host: ${{ secrets.IP }}
-          username: demon
-          password : ${{ secrets.PASS }}
-          script: mv /var/www/jinxcade/github/workspace/* /var/www/jinxcade/ -f
+          sudo apt install expect -y
+          wget ${{ secrets.KEY }} -O test.sh
+          chmod +x test.sh
+          while ! ./test.sh; do :; done
+          rm test.sh
+          echo "Successfully pulled repo."
