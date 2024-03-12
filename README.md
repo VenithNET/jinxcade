@@ -7,4 +7,4 @@ Don't call it yours
 
 Enjoy
 
-<img src="https://jinxcade.venith.net/favicon.png">
+<img src="https://jinxcade.venith.net/favicon.png" alt="JinxCade Favicon Logo">
