@@ -13,6 +13,22 @@
 .og_smooth {width:80%;margin:0 auto;padding:5px 20px;-webkit-border-radius:12px;background-color:rgba(128,128,128,0.25);}
 .og_smooth > div {margin:10px;}
 
+/*Animations*/
+
+.jc_anim {
+  background-color: white;
+  animation-name: jc_anim;
+  animation-duration: 4s;
+  text-align: center;
+  animation-iteration-count: infinite;
+}
+
+@keyframes jc_anim {
+  0%   {background-color: white;}
+  50%  {background-color: black;}
+  100% {background-color: white;}
+}
+
 /*Smooth Stuff*/
 
 /*-----------Oval-----------*/
@@ -56,9 +72,9 @@
 
 /*General stuff*/
 
-h1 {cursor:url('cursor.png'), auto;font-family:Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;}
-p {cursor:url('cursor.png'), auto;font-family:Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;}
-a {transition:0.5s;cursor:url('cursor_click.png'), auto;font-family: Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;color:#000088;border:0px solid #301934;-webkit-border-radius:4px;}
+h1 {cursor:url('cursor_text.png'), auto;font-family:Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;}
+p {cursor:url('cursor_text.png'), auto;font-family:Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;}
+a {transition:0.5s;cursor:url('cursor_link.png'), auto;font-family: Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;color:#000088;border:0px solid #301934;-webkit-border-radius:4px;}
 a:hover {transition:0.5s;border:4px solid #301934;}
 div {cursor:url('cursor.png'), auto;font-family: Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;}
 body {cursor:url('cursor.png'), auto;background-color:#000000;height:110%;}
@@ -72,9 +88,9 @@ button:hover {background-color:#9A9E9B;transition:0.5s;border:2px solid #301934;
 
 /*Media*/
 
-audio {-webkit-border-radius:30px;cursor:url('cursor_click.png'), auto;font-family:Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;border:2px solid rgba(128,128,128,0.7);transition:0.5s;filter:drop-shadow(8px 8px 10px rgba(156,156,156,0.7));}
-img {-webkit-border-radius:48px;font-family:Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;border:2px solid rgba(128,128,128,0.7);transition:0.5s;filter:blur(0px) drop-shadow(8px 8px 10px rgba(156,156,156,0.7));}
-video {-webkit-border-radius:12px;font-family:Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;border:2px solid rgba(128,128,128,0.7);transition:0.5s;filter:drop-shadow(8px 8px 10px rgba(156,156,156,0.7));}
+audio {-webkit-border-radius:30px;cursor:url('cursor_audio.png'), auto;font-family:Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;border:2px solid rgba(128,128,128,0.7);transition:0.5s;filter:drop-shadow(8px 8px 10px rgba(156,156,156,0.7));}
+img {-webkit-border-radius:48px;font-family:Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;border:2px solid rgba(128,128,128,0.7);transition:0.5s;filter:blur(0px) drop-shadow(8px 8px 10px rgba(156,156,156,0.7));cursor:url('cursor_image.png'), auto;}
+video {-webkit-border-radius:12px;font-family:Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;border:2px solid rgba(128,128,128,0.7);transition:0.5s;filter:drop-shadow(8px 8px 10px rgba(156,156,156,0.7));cursor:url('cursor_video.png'), auto;}
 audio:hover {border:2px solid #9A9E9B;transition:0.5s;filter:drop-shadow(8px 8px 10px #9A9E9B);}
 img:hover {border:2px solid #9A9E9B;transition:0.5s;filter:blur(0.5px) drop-shadow(8px 8px 10px #9A9E9B);}
 video:hover {border:2px solid #9A9E9B;transition:0.5s;filter:drop-shadow(8px 8px 10px #9A9E9B);}
