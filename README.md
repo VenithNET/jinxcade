@@ -1,6 +1,6 @@
 This project is open-source, feel free to download and use any files
-If you download the entire thing, make sure you make it your own
-You can download the files for offline viewing.
+<br>If you download the entire thing, make sure you make it your own
+<br>You can download the files for offline viewing.
 
 Don't call it yours
 
@@ -13,9 +13,9 @@ Enjoy this site
 <img src="https://jinxcade.venith.net/sites.png" alt="Sites">
 
 Here is a couple of featured sites!
-<a href="https://venith.net">-venith.net</a>
-<a href="https://omada.cafe">-omada.cafe</a>
-<a href="https://suyu.dev">-suyu.dev</a>
+<br><a href="https://venith.net">-venith.net</a>
+<br><a href="https://omada.cafe">-omada.cafe</a>
+<br><a href="https://suyu.dev">-suyu.dev</a>
 
 <img src="https://jinxcade.venith.net/about.png" alt="About">
 
