@@ -6,3 +6,5 @@ Don't call it yours
 (I don't mind use of the .css and .js and .webp files externally)
 
 Enjoy
+
+<img src="https://jinxcade.venith.net/favicon.png">
