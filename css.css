@@ -89,7 +89,7 @@ button:hover {background-color:#9A9E9B;transition:0.5s;border:2px solid #301934;
 /*Media*/
 
 audio {-webkit-border-radius:30px;cursor:url('cursor_audio.png'), auto;font-family:Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;border:2px solid rgba(128,128,128,0.7);transition:0.5s;filter:drop-shadow(8px 8px 10px rgba(156,156,156,0.7));}
-img {-webkit-border-radius:48px;font-family:Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;border:2px solid rgba(128,128,128,0.7);transition:0.5s;filter:blur(0px) drop-shadow(8px 8px 10px rgba(156,156,156,0.7));cursor:url('cursor_image.png'), auto;}
+img {-webkit-border-radius:12px;font-family:Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;border:2px solid rgba(128,128,128,0.7);transition:0.5s;filter:blur(0px) drop-shadow(8px 8px 10px rgba(156,156,156,0.7));cursor:url('cursor_image.png'), auto;}
 video {-webkit-border-radius:12px;font-family:Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;border:2px solid rgba(128,128,128,0.7);transition:0.5s;filter:drop-shadow(8px 8px 10px rgba(156,156,156,0.7));cursor:url('cursor_video.png'), auto;}
 audio:hover {border:2px solid #9A9E9B;transition:0.5s;filter:drop-shadow(8px 8px 10px #9A9E9B);}
 img:hover {border:2px solid #9A9E9B;transition:0.5s;filter:blur(0.5px) drop-shadow(8px 8px 10px #9A9E9B);}
@@ -182,5 +182,5 @@ video:hover {border:2px solid #9A9E9B;transition:0.5s;filter:drop-shadow(8px 8px
 @font-face {font-family:'Yusei Magic';src:url(https://jinxcade.github.io/jinxcade-media/fonts/Yusei+Magic.ttf);}
 @font-face {font-family:'D';src:url(https://jinxcade.github.io/jinxcade-media/fonts/3D.ttf);}
 @font-face {font-family:'Burbank';src:url(https://jinxcade.github.io/jinxcade-media/fonts/Burbank.otf);}
-@font-face {font-family:'Heading Now';src:url(https://jinxcade.github.io/jinxcade-media/fonts/Heading+Now.ttf);}
+@font-face {font-family:'Heading Now';src:url(https://jinxcade.github.io/jinxcade-media/fonts/DelaGothicOne.ttf);}
 @font-face {font-family:'Densit';src:url(https://jinxcade.github.io/jinxcade-media/fonts/Densit.otf);}
