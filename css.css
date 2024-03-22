@@ -81,9 +81,9 @@ body {cursor:url('cursor.png'), auto;background-color:#000000;height:110%;}
 
 /*Interactive*/
 
-input {width:88%;cursor:url('cursor_text.png'), auto;font-family:AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;background-color:rgba(128,128,128,0.5);transition:0.5s;border:2px solid #100712;-webkit-border-radius:4px;}
+input {width:88%;cursor:url('cursor_text.png'), auto;font-family:AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;background-color:rgba(128,128,128,0.5);transition:0.5s;border:2px solid #100712;-webkit-border-radius:4px;color:#10034f;}
 input:hover {background-color:#9A9E9B;transition:0.5s;border:2px solid #301934;}
-button {width:90%;cursor:url('cursor_click.png'), auto;font-family:Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;background-color:rgba(128,128,128,0.5);transition:0.5s;border:2px solid #100712;-webkit-border-radius:4px;}
+button {width:90%;cursor:url('cursor_click.png'), auto;font-family:AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;background-color:rgba(128,128,128,0.5);transition:0.5s;border:2px solid #100712;-webkit-border-radius:4px;color:#10034f;}
 button:hover {background-color:#9A9E9B;transition:0.5s;border:2px solid #301934;}
 
 /*Media*/
