@@ -6,6 +6,15 @@
 /*Every theme name in code: 'Stary Grey Magica' (css.css), 'Iced Up Purple' (purple.css), 'Cored Down Orange' (orange.css), 'Bright Sunny White' (white.css), 'Magical Palaced Blue' (blue.css)*/
 
 
+/*Aligning*/  
+
+.text_center {
+	text-align:center;
+}
+.align_center {
+	margin:auto;
+}
+
 /*Old Stuff*/
 
 .og_hover {
@@ -62,35 +71,88 @@
 	transition:0.5s;
 	filter:drop-shadow(8px 8px 10px rgba(128,128,128,0.7));
 	background-image:url(div_bg.png),linear-gradient(rgba(165,165,165,0.7),rgba(128,128,128,0.7));
+    background-repeat:repeat-x;
 }
-.oval_loose {margin:0 auto;-webkit-border-radius:64px;background-color:rgba(128,128,128,0.7);transition:0.5s;filter:drop-shadow(8px 8px 10px rgba(128,128,128,0.7));background-image:url(div_bg.png),linear-gradient(rgba(165,165,165,0.7),rgba(128,128,128,0.7));}
-.oval > div {margin:10px;}
+.oval_loose {
+	margin:0 auto;
+	-webkit-border-radius:64px;
+	background-color:rgba(128,128,128,0.7);
+	transition:0.5s;
+	filter:drop-shadow(8px 8px 10px rgba(128,128,128,0.7));
+	background-image:url(div_bg.png),linear-gradient(rgba(165,165,165,0.7),rgba(128,128,128,0.7));
+	background-repeat:repeat-x;
+}
+.oval > div {
+	margin:10px;
+}
 /*-----------Smooth-----------*/
-.smooth {width:85%;margin:0 auto;padding:3px 20px;-webkit-border-radius:8px;background-color:rgba(128,128,128,0.7);transition:0.5s;filter:drop-shadow(8px 8px 10px rgba(128,128,128,0.7));background-image:url(div_bg.png),linear-gradient(rgba(165,165,165,0.7),rgba(128,128,128,0.7));}
-.smooth_loose {margin:0 auto;-webkit-border-radius:8px;background-color:rgba(128,128,128,0.7);transition:0.5s;filter:drop-shadow(8px 8px 10px rgba(128,128,128,0.7));background-image:url(div_bg.png),linear-gradient(rgba(165,165,165,0.7),rgba(128,128,128,0.7));}
-.smooth > div {margin:10px;}
+.smooth {
+	width:85%;
+	margin:0 auto;
+	padding:3px 20px;
+	-webkit-border-radius:8px;
+	background-color:rgba(128,128,128,0.7);
+	transition:0.5s;
+	filter:drop-shadow(8px 8px 10px rgba(128,128,128,0.7));
+	background-image:url(div_bg.png),linear-gradient(rgba(165,165,165,0.7),rgba(128,128,128,0.7));
+	background-repeat:repeat-x;
+}
+.smooth_loose {
+	margin:0 auto;
+	-webkit-border-radius:8px;
+	background-color:rgba(128,128,128,0.7);
+	transition:0.5s;
+	filter:drop-shadow(8px 8px 10px rgba(128,128,128,0.7));
+	background-image:url(div_bg.png),linear-gradient(rgba(165,165,165,0.7),rgba(128,128,128,0.7));
+	background-repeat:repeat-x;
+}
+.smooth > div {
+	margin:10px;
+}
 /*-----------Rough-----------*/
-.rough {width:85%;margin:0 auto;padding:3px 20px;-webkit-border-radius:4px;background-color:rgba(128,128,128,0.7);transition:0.5s;filter:drop-shadow(8px 8px 10px rgba(128,128,128,0.7));background-image:url(div_bg.png),linear-gradient(rgba(165,165,165,0.7),rgba(128,128,128,0.7));}
-.rough_loose {margin:0 auto;-webkit-border-radius:4px;background-color:rgba(128,128,128,0.7);transition:0.5s;filter:drop-shadow(8px 8px 10px rgba(128,128,128,0.7));background-image:url(div_bg.png),linear-gradient(rgba(165,165,165,0.7),rgba(128,128,128,0.7));}
+.rough {width:85%;margin:0 auto;padding:3px 20px;-webkit-border-radius:4px;background-color:rgba(128,128,128,0.7);transition:0.5s;filter:drop-shadow(8px 8px 10px rgba(128,128,128,0.7));background-image:url(div_bg.png),linear-gradient(rgba(165,165,165,0.7),rgba(128,128,128,0.7));background-repeat:repeat-x;}
+.rough_loose {margin:0 auto;-webkit-border-radius:4px;background-color:rgba(128,128,128,0.7);transition:0.5s;filter:drop-shadow(8px 8px 10px rgba(128,128,128,0.7));background-image:url(div_bg.png),linear-gradient(rgba(165,165,165,0.7),rgba(128,128,128,0.7));background-repeat:repeat-x;}
 .rough > div {margin:10px;}
 /*-----------Rect-----------*/
-.rect {width:85%;margin:0 auto;padding:3px 20px;-webkit-border-radius:0px;background-color:rgba(128,128,128,0.7);transition:0.5s;filter:drop-shadow(8px 8px 10px rgba(128,128,128,0.7));background-image:url(div_bg.png),linear-gradient(rgba(165,165,165,0.7),rgba(128,128,128,0.7));}
-.rect_loose {margin:0 auto;-webkit-border-radius:0px;background-color:rgba(128,128,128,0.7);transition:0.5s;filter:drop-shadow(8px 8px 10px rgba(128,128,128,0.7));background-image:url(div_bg.png),linear-gradient(rgba(165,165,165,0.7),rgba(128,128,128,0.7));}
+.rect {width:85%;margin:0 auto;padding:3px 20px;-webkit-border-radius:0px;background-color:rgba(128,128,128,0.7);transition:0.5s;filter:drop-shadow(8px 8px 10px rgba(128,128,128,0.7));background-image:url(div_bg.png),linear-gradient(rgba(165,165,165,0.7),rgba(128,128,128,0.7));background-repeat:repeat-x;}
+.rect_loose {margin:0 auto;-webkit-border-radius:0px;background-color:rgba(128,128,128,0.7);transition:0.5s;filter:drop-shadow(8px 8px 10px rgba(128,128,128,0.7));background-image:url(div_bg.png),linear-gradient(rgba(165,165,165,0.7),rgba(128,128,128,0.7));background-repeat:repeat-x;}
 .rect > div {margin:10px;}
 
 /*Sizing*/
 
-.smaller_size {width:60%;}
-.size10 {width:10%;}
-.size20 {width:20%;}
-.size30 {width:30%;}
-.size40 {width:40%;}
-.size50 {width:50%;}
-.size60 {width:60%;}
-.size70 {width:70%;}
-.size80 {width:80%;}
-.size90 {width:90%;}
-.size100 {width:100%;}
+.smaller_size {
+	width:60%;
+}
+.size10 {
+	width:10%;
+}
+.size20 {
+	width:20%;
+}
+.size30 {
+	width:30%;
+}
+.size40 {
+	width:40%;
+}
+.size50 {
+	width:50%;
+}
+.size60 {
+	width:60%;
+}
+.size70 {
+	width:70%;
+}
+.size80 {
+	width:80%;
+}
+.size90 {
+	width:90%;
+}
+.size100 {
+	width:100%;
+}
 
 /*Hovering*/
 
@@ -109,10 +171,12 @@ div {cursor:url('cursor.png'), auto;font-family: Audiowide,AudiowideJPN,Arial,sa
 body {
 	cursor:url('cursor.png'), auto;
 	background-color:#000000;
-	height:110%;
-    background-image:;
     background-image:url(bg.png),conic-gradient(black 45deg,#121613 90deg, #454946 180deg,#121613 225deg, black 320deg);
-    
+    margin:0;
+    height:100%;
+}
+html {
+	height:100%;
 }
 
 /*Interactive*/
@@ -162,51 +226,6 @@ video:hover {border:2px solid #9A9E9B;transition:0.5s;filter:drop-shadow(8px 8px
 .tooltip .tooltiptext {width:180px;background-color:black;color:rgba(128,128,128,0);text-align:center;padding:5px 0;border-radius:6px;position:absolute;z-index:1;margin-left:-60px;left:33.333%;top:30%;background-color:rgba(128,128,128,0);transition:1s;}
 .tooltip:hover .tooltiptext {transition:1s;background-color:rgba(128,128,128,0.8);color:rgba(0,0,0,1);}
 
-/*Navigation Bar*/
-
-.topnav {
-	position:fixed;
-	top:0;
-	left:0;
-	width:100%;
-	overflow:hidden;
-	background-color:#343835;
-	transition:0.75s;
-}
-.topnav a {
-	float:left;
-	display:block;
-	color:#9A9E9B;
-	text-align:left;
-	padding:5px 16px;
-	text-decoration: none;
-	transition:0.5s;
-	border:0px solid #301934;
-    
-}
-.topnav a:hover {
-	background-color:#9A9E9B;
-	color:black;
-	cursor:url('cursor_click.png'), auto;
-    
-}
-.topnav:hover {
-	cursor:url('cursor.png');
-}
-.active {
-	background-color:#565A57;
-}
-
-/*Aligning*/  
-
-.text_center {
-	text-align:center;
-}
-.align_center {
-	margin:auto;
-}
-
-
 /*Colors (inefficient on memory)*/
 
 .color_red {color:red;}
@@ -246,6 +265,41 @@ video:hover {border:2px solid #9A9E9B;transition:0.5s;filter:drop-shadow(8px 8px
 .color_suyu3 {color:#gray;}
 .color_suyu_bg {background-color:#4444FF;}
 
+/*Navigation Bar*/
+
+.topnav {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	overflow:hidden;
+	background-color:#343835;
+	transition:0.75s;
+}
+.topnav a {
+	float:left;
+	display:block;
+	color:#9A9E9B;
+	text-align:left;
+	padding:5px 16px;
+	text-decoration: none;
+	transition:0.5s;
+	border:0px solid #301934;
+    
+}
+.topnav a:hover {
+	background-color:#9A9E9B;
+	color:black;
+	cursor:url('cursor_click.png'), auto;
+    
+}
+.topnav:hover {
+	cursor:url('cursor.png');
+}
+.active {
+	background-color:#565A57;
+}
+
 /*Fonts*/
 
 @font-face {font-family:'Audiowide';src:url(https://jinxcade.github.io/jinxcade-media/fonts/Audiowide.ttf);}
@@ -255,6 +309,15 @@ video:hover {border:2px solid #9A9E9B;transition:0.5s;filter:drop-shadow(8px 8px
 @font-face {font-family:'DotGothic16';src:url(https://jinxcade.github.io/jinxcade-media/fonts/DotGothic16.ttf);}
 @font-face {font-family:'Yusei Magic';src:url(https://jinxcade.github.io/jinxcade-media/fonts/Yusei+Magic.ttf);}
 @font-face {font-family:'D';src:url(https://jinxcade.github.io/jinxcade-media/fonts/3D.ttf);}
-@font-face {font-family:'Burbank';src:url(https://jinxcade.github.io/jinxcade-media/fonts/Burbank.otf);}
-@font-face {font-family:'Heading Now';src:url(https://jinxcade.github.io/jinxcade-media/fonts/DelaGothicOne.ttf);}
-@font-face {font-family:'Densit';src:url(https://jinxcade.github.io/jinxcade-media/fonts/Densit.otf);}
+@font-face {
+	font-family:'Burbank';
+	src:url(https://jinxcade.github.io/jinxcade-media/fonts/Burbank.otf);
+}
+@font-face {
+	font-family:'Heading Now';
+	src:url(https://jinxcade.github.io/jinxcade-media/fonts/DelaGothicOne.ttf);
+}
+@font-face {
+	font-family:'Densit';
+	src:url(https://jinxcade.github.io/jinxcade-media/fonts/Densit.otf);
+}
