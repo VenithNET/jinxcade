@@ -50,12 +50,15 @@
 
 @keyframes jc_anim {0% {
 		background-color: white;
+        color:black;
 	}
 	50%  {
 		background-color: black;
+        color:white;
 	}
 	100% {
 		background-color: white;
+        color:black;
 	}
 }
 
@@ -171,7 +174,7 @@ div {cursor:url('cursor.png'), auto;font-family: Audiowide,AudiowideJPN,Arial,sa
 body {
 	cursor:url('cursor.png'), auto;
 	background-color:#000000;
-    background-image:url(bg.png),conic-gradient(black 45deg,#121613 90deg, #454946 180deg,#121613 225deg, black 320deg);
+    background-image:url(bg.png),linear-gradient(black,#121613,#454946,#121613,black);
     margin:0;
     height:100%;
 }
@@ -192,7 +195,11 @@ audio {-webkit-border-radius:30px;cursor:url('cursor_audio.png'), auto;font-fami
 img {-webkit-border-radius:12px;font-family:Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;border:2px solid rgba(128,128,128,0.7);transition:0.5s;filter:blur(0px) drop-shadow(8px 8px 10px rgba(156,156,156,0.7));cursor:url('cursor_image.png'), auto;}
 video {-webkit-border-radius:12px;font-family:Audiowide,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;border:2px solid rgba(128,128,128,0.7);transition:0.5s;filter:drop-shadow(8px 8px 10px rgba(156,156,156,0.7));cursor:url('cursor_video.png'), auto;}
 audio:hover {border:2px solid #9A9E9B;transition:0.5s;filter:drop-shadow(8px 8px 10px #9A9E9B);}
-img:hover {border:2px solid #9A9E9B;transition:0.5s;filter:blur(0.5px) drop-shadow(8px 8px 10px #9A9E9B);}
+img:hover {
+	border:2px solid #9A9E9B;
+	transition:0.5s;
+	filter:blur(0.5px) drop-shadow(8px 8px 10px #9A9E9B);
+}
 video:hover {border:2px solid #9A9E9B;transition:0.5s;filter:drop-shadow(8px 8px 10px #9A9E9B);}
 
 /*Basic Fonts*/
@@ -275,6 +282,7 @@ video:hover {border:2px solid #9A9E9B;transition:0.5s;filter:drop-shadow(8px 8px
 	overflow:hidden;
 	background-color:#343835;
 	transition:0.75s;
+    z-index:5;
 }
 .topnav a {
 	float:left;
@@ -285,7 +293,7 @@ video:hover {border:2px solid #9A9E9B;transition:0.5s;filter:drop-shadow(8px 8px
 	text-decoration: none;
 	transition:0.5s;
 	border:0px solid #301934;
-    
+    z-index:6;
 }
 .topnav a:hover {
 	background-color:#9A9E9B;
