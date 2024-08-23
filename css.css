@@ -5,6 +5,29 @@
 
 /*Every theme name in code: 'Stary Grey Magica' (css.css), 'Iced Up Purple' (purple.css), 'Cored Down Orange' (orange.css), 'Bright Sunny White' (white.css), 'Magical Palaced Blue' (blue.css)*/
 
+/*Body before/after*/
+
+body:before {
+	content:"Hello! We are currently preparing for a huge change within the next couple of months!";
+	text-align:center;
+	display:block;
+	padding:8px;
+	background-color:#9A9E9B;
+	font-family:Yusei Magic,Arial,sans-serif;
+	font-weight:normal;
+	font-style:normal;
+}
+
+body:after {
+	content:"jinxcade.venith.net 2023-2024 by JinxCade, enjoy this free information!";
+	text-align:center;
+	display:block;
+	padding:8px;
+	background-color:#9A9E9B;
+	font-family:Yusei Magic,Arial,sans-serif;
+	font-weight:normal;
+	font-style:normal;
+}
 
 /*Aligning*/  
 
