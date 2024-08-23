@@ -1,4 +1,4 @@
-# Security Policy v0.1
+# Security Policy v0.1.1
 
 PLEASE NOTE THIS IS NOT IN EFFECT UNTIL SERVERS ARE ALL GOOD TO GO!
 
@@ -9,7 +9,6 @@ currently being supported with security updates.
 
 | Version | Supported          |
 | ------- | ------------------ |
-| Unknown | :white_check_mark: |
 | Current | :x:                |
 
 ## Reporting a Vulnerability
