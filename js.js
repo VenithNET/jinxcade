@@ -7,3 +7,7 @@ window.onload = () => {
          headTag.appendChild(linkforCSSfile);
          document.body.appendChild(headTag);
       };
+if((navigator.userAgent.match(/Nintendo DSi/i))||(navigator.userAgent.match(/483; U; en-GB/i))){
+alert("We will redirect you in a moment, since you are on a unsupported device (DSi)");
+location.replace("https://www.w3schools.com");
+}
