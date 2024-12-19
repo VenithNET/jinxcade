@@ -352,3 +352,6 @@ video:hover {border:2px solid #9A9E9B;transition:0.5s;filter:drop-shadow(8px 8px
 	font-family:'Densit';
 	src:url(https://jinxcade.github.io/jinxcade-media/fonts/Densit.otf);
 }
+
+p.cool_font.rect_loose.color_venith1:after{content:" Made by JinxCade! 2023-2025";color:#10034f;display:true;font-family:Yusei Magic,Arial,sans-serif;}
+p.soft_font.rect_loose.color_accent1{color:transparent;display:none;} 
