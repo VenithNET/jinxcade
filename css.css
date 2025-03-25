@@ -8,7 +8,7 @@
 /*Body before/after*/
 
 body:before {
-	content:"Hello! We are currently preparing for a huge change within the next couple of months! (Delayed, so sorry!)";
+	content:"";
 	text-align:center;
 	display:block;
 	padding:8px;
@@ -19,7 +19,7 @@ body:before {
 }
 
 body:after {
-	content:"jinxcade.venith.net 2023-2024 by JinxCade, enjoy this free information!";
+	content:"";
 	text-align:center;
 	display:block;
 	padding:8px;
@@ -233,8 +233,9 @@ video:hover {border:2px solid #9A9E9B;transition:0.5s;filter:drop-shadow(8px 8px
 .soft_font {font-family:Yusei Magic,Arial,sans-serif;font-weight:normal;font-style:normal;}
 .d_font {font-family:D,Arial,sans-serif;font-weight:normal;font-style:normal;}
 .fn_font {font-family:Burbank,Arial,sans-serif;font-weight:normal;font-style:normal;}
-.heading_font {font-family:Heading Now,AudiowideJPN,Arial,sans-serif;font-weight:normal;font-style:normal;}
+.heading_font {font-family:Heading Now,Yusei Magic,Arial,sans-serif;font-weight:normal;font-style:normal;}
 .densit_font {font-family:Densit,Arial,sans-serif;font-weight:normal;font-style:normal;}
+.ds_font {font-family:DS,Arial,sans-serif;font-weight:normal;font-style:normal;}
 
 /*Borders and Positioning*/
 
@@ -340,6 +341,7 @@ video:hover {border:2px solid #9A9E9B;transition:0.5s;filter:drop-shadow(8px 8px
 @font-face {font-family:'DotGothic16';src:url(https://jinxcade.github.io/jinxcade-media/fonts/DotGothic16.ttf);}
 @font-face {font-family:'Yusei Magic';src:url(https://jinxcade.github.io/jinxcade-media/fonts/Yusei+Magic.ttf);}
 @font-face {font-family:'D';src:url(https://jinxcade.github.io/jinxcade-media/fonts/3D.ttf);}
+@font-face {font-family:'DS';src:url(https://jinxcade.github.io/jinxcade-media/fonts/ds-lite.ttf);}
 @font-face {
 	font-family:'Burbank';
 	src:url(https://jinxcade.github.io/jinxcade-media/fonts/Burbank.otf);
